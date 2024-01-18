@@ -7,6 +7,7 @@ import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
 // import Product from "./Components/Product";
 import Sidebar from "./Components/Dashboard/SideBarSection/Sidebar";
+import ProductScreen from "./Screens/ProductScreen";
 
 const App= () => {
   return (
@@ -18,6 +19,7 @@ const App= () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/product/:id" element={<ProductScreen/>}/>
         <Route
           path="/dashboard/*"
           element={
