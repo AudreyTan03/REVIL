@@ -19,6 +19,12 @@
     --smallestFontSize: .75rem;
   }
 
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    // any other styles you want to apply to the .bottom class
+  }
   .topSection{
     .headerSection{
       justify-content: space-between;
@@ -101,6 +107,12 @@
         padding: 2rem;
         border-radius: 1rem;
         overflow: hidden;
+
+        // .buttons{
+        //   display: flex;
+        //   flex-direction: column;
+        //   flex-wrap: wrap;
+        // }
         
         .videoDiv{
           position: absolute;

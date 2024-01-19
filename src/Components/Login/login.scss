@@ -26,6 +26,14 @@
     --smallestFontSize: .75rem;
 }
 
+body {
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10%;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -100,7 +108,7 @@ video {
 }
 
 .loginPage {
-    height: 100vh;
+    height: inherit;
     width: 100%;
     margin: 0;
     border-radius: 10px;
